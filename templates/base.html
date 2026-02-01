@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% block title %}Aplicação{% endblock %}</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>{% block header %}Bem-vindo{% endblock %}</h1>
+    <nav>
+      {% block nav %}{% endblock %}
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer>
+    <small>&copy; 2026</small>
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
