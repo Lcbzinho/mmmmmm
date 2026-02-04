@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  color: #1f2937;
+}
+
+header {
+  background: #111827;
+  color: #fff;
+  padding: 24px 16px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 24px 16px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(17, 24, 39, 0.08);
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  color: #6b7280;
+}
